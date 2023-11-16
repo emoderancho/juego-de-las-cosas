@@ -1,0 +1,109 @@
+:root{
+    --primary: #272726;
+    --secondary: #ececed;
+    --offblack: #272727;
+    --offwhite: #ececec;
+    --danger: #a04444;
+}
+
+.button {
+    padding: 1em 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+    font-weight: bold;
+  }
+  
+.primary {
+  background-color: var(--primary);
+  color: var(--offwhite)
+}
+
+.secondary {
+  background-color: var(--secondary);
+  border: 2px solid var(--offblack)
+}
+
+.danger {
+  color: var(--danger);
+  border: 2px solid var(--danger)
+}
+
+.danger:hover {
+  background-color: var(--danger);
+  color: var(--offwhite);
+}
+
+.small {
+  padding: 0.5em 1em;
+}
+
+.outline {
+  border: 2px solid var(--secondary);
+  background-color: transparent;
+  color: var(--secondary)
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--offblack);
+  padding: 10px;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-room-code {
+  font-size: 16px;
+}
+
+.room-display {
+  font-weight: bold;
+  padding-right: 0.5em;
+}
+
+.room-code {
+  background-color: white;
+  font-weight: bold;
+  padding: 0.7em 1em;
+  border-radius: 5px;
+  color: black;
+}
+
+.room-code-copied {
+  background-color: #36ce5c;
+  font-weight: bold;
+  padding: 0.7em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.input {
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 0.5em;
+  color: var(--offblack);
+  font-weight:200;
+}
+
+.input-stack > p > small{
+  color:#5e5e5e
+}
+
+.custom-dropdown {
+  background-color: var(--offblack);
+}
+
+.user-card {
+  padding: 1em 1em;
+  color: var(--offblack);
+  background-color: var(--offwhite);
+  border: 2px solid var(--offblack);
+  border-radius: 0.5em;
+  font-size: large;
+  font-weight: 600;
+}
